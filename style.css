@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background: #e7eff6 url('./img/stickybg.png') no-repeat fixed;
+  background-position: bottom right;
+  color: #555;
+}
+
+/* Utilities/Global */
+
+.text-primary {
+  color: #e7eff6;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: #e7eff6;
+  padding: 0.75rem;
+  border-left: 1px #e7eff6;
+  border-right: 1px #e7eff6;
+}
+
+/* Navbar */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #a3c2dd;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  z-index: 1;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+}
+
+#navbar i {
+  background: #555;
+  border: 1px solid #555;
+  color: #a3c2dd;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#navbar h1 {
+  color: white;
+  font-size: 2.75rem;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0.75rem 0;
+}
+
+#navbar ul li a {
+    margin: 0.75rem 0.75rem;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+  background: #555;
+  color: #a3c2dd;
+}
+
+/* Songs */
+
+#songs {
+  margin: 1rem 1rem;
+  /* background: rgba(163,194,221,0.5); */
+  padding: 1rem 1rem;
+  margin-right: 30em;
+  color: black;
+}
+
+.vids {
+  display: flex;
+  margin: 2rem 2rem;
+  padding: 1rem 2rem;
+  justify-content: center;
+}
+
+.song-title {
+  text-align: center;
+  color: white;
+  padding: 1rem 1rem;
+  background: #555;
+  display: block;
+  border-radius: 5px;
+}
+
+.click {
+  margin-bottom: 2rem;
+  display: none;
+}
+
+/* JavaScript Test - how i keep english tab open on default?? */
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #555;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+  #Home {background-color: #a3c2dd;}
+  #News {background-color: #a3c2dd;}
+  #Contact {background-color: #a3c2dd;}
+  #About {background-color: #a3c2dd;}
